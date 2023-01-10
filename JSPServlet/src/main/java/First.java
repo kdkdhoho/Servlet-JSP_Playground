@@ -10,11 +10,11 @@ public class First extends HttpServlet {
 
     @Override
     public void init() throws ServletException {
-        System.out.println("init() 호출");
+        System.out.println("First.init() 호출");
     }
 
     @Override
     public void service(ServletRequest request, ServletResponse response) throws ServletException, IOException {
-        System.out.println("service() 호출");
+        System.out.println("First.service() 호출");
     }
 }
