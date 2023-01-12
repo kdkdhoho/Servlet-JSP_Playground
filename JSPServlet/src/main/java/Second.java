@@ -23,4 +23,8 @@ public class Second extends HttpServlet {
         writer.print("<html><body><h1>Hello World!!!!!!!!!!!!!!!!!!!!!</h1></body></html>");
         writer.close();
     }
+
+    public int solution(int num, int k) {
+        return (" " + num).indexOf(String.valueOf(k));
+    }
 }
